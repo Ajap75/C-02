@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Fixed.hpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antoinejourdan-astruc <antoinejourdan-a    +#+  +:+       +#+        */
+/*   By: anastruc <anastruc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 16:31:12 by antoinejour       #+#    #+#             */
-/*   Updated: 2024/11/18 16:36:58 by antoinejour      ###   ########.fr       */
+/*   Updated: 2025/01/14 16:53:14 by anastruc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,6 @@ class Fixed
     Fixed( const float );
     Fixed( const Fixed& other );
     Fixed& operator=( const Fixed& other );
-    Fixed& operator <<(const Fixed& other);
 
     ~Fixed();
 

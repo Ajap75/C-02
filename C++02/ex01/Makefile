@@ -3,16 +3,16 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: antoinejourdan-astruc <antoinejourdan-a    +#+  +:+       +#+         #
+#    By: anastruc <anastruc@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/07 12:53:29 by anastruc          #+#    #+#              #
-#    Updated: 2024/11/18 13:51:41 by antoinejour      ###   ########.fr        #
+#    Updated: 2025/01/14 14:36:02 by anastruc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = fixed_point_class
 COMPIL = c++
-FLAGS =  -Wall -Werror -Wextra -std=c++98 -g3 -fPIC
+FLAGS =  -Wall -Werror -Wextra -std=c++98
 
 PINK = \033[1;35m
 BLUE = \033[1;36m

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antoinejourdan-astruc <antoinejourdan-a    +#+  +:+       +#+        */
+/*   By: anastruc <anastruc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 16:31:06 by antoinejour       #+#    #+#             */
-/*   Updated: 2024/11/18 13:17:28 by antoinejour      ###   ########.fr       */
+/*   Updated: 2025/01/14 12:18:13 by anastruc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,10 @@
 #include "../headers/Fixed.hpp"
 
 int main( void ) {
+
+// Fixed a;
+// a.setRawBits(5);
+// std::cout << a.getRawBits() << std::endl;
 Fixed a;
 Fixed b( a );
 Fixed c;

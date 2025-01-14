@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Fixed.hpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antoinejourdan-astruc <antoinejourdan-a    +#+  +:+       +#+        */
+/*   By: anastruc <anastruc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 16:31:12 by antoinejour       #+#    #+#             */
-/*   Updated: 2024/12/03 15:25:47 by antoinejour      ###   ########.fr       */
+/*   Updated: 2025/01/14 17:04:32 by anastruc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,6 @@ class Fixed
 
     /*Assignation operators declaration*/
     Fixed& operator=( const Fixed& other );
-    Fixed& operator <<(const Fixed& other);
 
 
     /*Comparison operators declaration*/

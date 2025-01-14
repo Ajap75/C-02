@@ -3,16 +3,16 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: antoinejourdan-astruc <antoinejourdan-a    +#+  +:+       +#+         #
+#    By: anastruc <anastruc@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/07 12:53:29 by anastruc          #+#    #+#              #
-#    Updated: 2024/12/03 15:18:31 by antoinejour      ###   ########.fr        #
+#    Updated: 2025/01/14 12:02:00 by anastruc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = Now_we_re_talking
 COMPIL = c++
-FLAGS =  -Wall -Werror -Wextra -std=c++98 -g3 -fPIC
+FLAGS =  -Wall -Werror -Wextra -std=c++98
 
 PINK = \033[1;35m
 BLUE = \033[1;36m
